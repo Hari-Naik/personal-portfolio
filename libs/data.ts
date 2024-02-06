@@ -2,13 +2,13 @@ export const projects = [
   {
     id: 1,
     title: "Flipkart 🛒",
-    img: "https://www.passwarden.com/img/help/manuals/how-to-change-flipkart-password/how-to-change-flipkart-password_15583.webp",
+    img: "/flipkart-clone.png",
     description:
       "An exceptional e-commerce platform mirroring Flipkart functionalities has been meticulously developed, employing cutting-edge technologies such as React.JS, firebase, Redux-Toolkit, Tailwind CSS, Stripe, and a suite of other innovative tools.",
     techStack: ["React.JS", "TypeScript", "Tailwind CSS"],
     links: {
       github: "https://github.com/Hari-Naik/flipkart-clone",
-      live: "",
+      live: "https://flipkart-clone-taupe.vercel.app/",
     },
   },
   {

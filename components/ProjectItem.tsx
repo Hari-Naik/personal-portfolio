@@ -26,8 +26,7 @@ const ProjectItem: React.FC<Props> = ({ project, index }) => {
         className={`relative w-[80%] h-[250px] md:w-[50%] md:order-${index}`}>
         <Image
           src={project.img}
-          layout="fill"
-          objectFit="cover"
+          fill
           className="rounded-md hover:shadow-md cursor-pointer"
           alt="flipkart"
         />
