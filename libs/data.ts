@@ -1,14 +1,20 @@
 export const projects = [
   {
     id: 1,
-    title: "Flipkart 🛒",
-    img: "/flipkart-clone.png",
+    title: "E-Commerce Application 🛒",
+    img: "/e-commerce-app.png",
     description:
-      "An exceptional e-commerce platform mirroring Flipkart functionalities has been meticulously developed, employing cutting-edge technologies such as React.JS, firebase, Redux-Toolkit, Tailwind CSS, Stripe, and a suite of other innovative tools.",
-    techStack: ["React.JS", "TypeScript", "Tailwind CSS"],
+      "A full-stack e-commerce platform designed to provide a seamless and user-friendly shopping experience. The application includes features such as user authentication, advanced product filtering and sorting, secure payment integration, and order management.",
+    techStack: [
+      "React.JS",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Node ",
+    ],
     links: {
-      github: "https://github.com/Hari-Naik/flipkart-clone",
-      live: "https://flipkart-clone-taupe.vercel.app/",
+      github: "https://github.com/Hari-Naik/E-commerce-app;",
+      live: "https://hari-ecommerce-application.vercel.app/",
     },
   },
   {

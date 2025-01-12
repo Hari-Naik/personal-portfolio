@@ -31,12 +31,13 @@ const ProjectItem: React.FC<Props> = ({ project, index }) => {
           alt="flipkart"
         />
       </div>
-      <div className={`md:flex-1 text-center w-[80%]`}>
+      <div className={`flex flex-col gap-3 md:flex-1 text-center w-[80%]`}>
         <h2 className="text-[17px] text-[#2d2e32] font-semibold mb-2">
           {project.title}
         </h2>
         <p className="text-sm text-[#878787]">{project.description}</p>
-        <div className="flex items-center justify-center gap-8 mt-10 md:mt-18 ">
+
+        <div className="flex items-center justify-center gap-8 mt-5">
           <a
             href={project.links.github}
             target="_blank"

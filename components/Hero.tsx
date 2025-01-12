@@ -32,9 +32,9 @@ const Hero = () => {
         {/* hero img */}
         <div className="animate-swing relative h-[280px] w-[280px] order-1 md:order-2 rounded-full border-[2px] border-[#000]">
           <Image
-            src="https://res.cloudinary.com/dgwmfee0i/image/upload/v1642781168/6882_1_jfhk6r.jpg"
+            src="/profile.png"
+            // src="https://res.cloudinary.com/dgwmfee0i/image/upload/v1642781168/6882_1_jfhk6r.jpg"
             fill
-            // objectFit="cover"
             className="rounded-full animate-swing"
             alt="proifle"
           />
