@@ -10,10 +10,10 @@ const Contact = () => {
       <h2 className="text-[17px] text-[#147efb] font-bold uppercase">
         Contact
       </h2>
-      <p className="text-[25px] text-[#2d2e32] font-bold">
+      <p className="text-[18px] sm:text-[25px] text-[#2d2e32] font-bold">
         {`Don't`} be shy! Hit me up! 👇
       </p>
-      <div className="flex  gap-8 mt-10">
+      <div className="flex flex-col sm:flex-row gap-8 mt-10">
         <div className="flex items-center gap-6">
           <div className="h-[50px] w-[50px] bg-white rounded-full shadow-lg flex items-center justify-center">
             <svg

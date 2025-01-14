@@ -5,7 +5,7 @@ import { projects } from "@/libs/data";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full mt-20 p-10">
+    <div id="projects" className="mt-20">
       <div className="max-w-[920px] mx-auto px-8 text-center md:text-start">
         <h2 className="text-[17px] text-[#147efb] font-bold uppercase mb-2">
           Portfolio
@@ -13,7 +13,7 @@ const Projects = () => {
         <p className="text-md text-[#2d2e32] font-semibold">
           Each project is a unique piece of development 🚀
         </p>
-        <div>
+        <div className="flex flex-col gap-10 mt-5">
           {projects.map((project, index) => {
             let order = 0;
             if ((index + 1) % 2 === 0) {

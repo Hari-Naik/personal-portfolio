@@ -21,9 +21,9 @@ type Props = {
 
 const ProjectItem: React.FC<Props> = ({ project, index }) => {
   return (
-    <div className="flex flex-col items-center gap-6 lg:gap-10  md:flex-row md:items-start md:justify-between my-20">
+    <div className="flex flex-col items-center gap-6 lg:gap-10 md:flex-row md:items-start md:justify-between p-3">
       <div
-        className={`relative w-[80%] h-[250px] md:w-[50%] md:order-${index}`}>
+        className={`relative w-full h-[170px] sm:h-[250px] md:w-[50%] md:order-${index}`}>
         <Image
           src={project.img}
           fill
